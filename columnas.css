@@ -1,0 +1,125 @@
+/*Luego de linquear las paginas, utilizamos h1 para darle color al texto*/
+
+h1 {
+  color: #092532;
+  padding: 20px;
+  background: #89c9b8;
+}
+
+#titulo2 {
+  color: #c70039;
+  /*el margin se utiliza para mover de lugar titulo o imagen. y padding se utilizan para centarr textos.  */
+  margin-left: 15px;
+  nav-down: auto;
+}
+
+.botones {
+  background: #cff6cf;
+  padding: 5px;
+}
+
+.columnas {
+  color: #c70039;
+  block-size: auto;
+  /*flex: se utiliza para posicionar un parrafo al lado del otro*/
+
+}
+
+/*el padding se utiliza para separar los enlaces o botones y darle forma y borde*/
+.nav-enlace {
+  background: #99b898;
+  color: fff;
+  padding: 10px 30px;
+  display: inline-block;
+  text-decoration: none; /*esto es para */
+}
+
+.nav-enlace: hover {
+  background: #4f8a8b
+}
+
+.nav-enlace {
+  background: #399b898;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+/*display:flex 
+    justify-content: space-between esto se usa para darle lugar al menu. 
+    tiene que tener inline block porque sino no funciona*/
+nav {
+  background: #3ca59d;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background: #086972;
+  color: #99d8d0;
+}
+
+button:hover {
+
+  background: #e84a5f
+}
+
+body {
+  background: url(./imagenbackground.jpg) no-repeat fixed center center #333;
+  background-size: cover;
+}
+
+/* header{
+  background-image: url(./pja.jpg);
+  position: fixed center center  ;
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 500px;
+   */
+h1{
+  background-image: url(./jesusoriginal.jpg);
+  width: 100%;
+  height: px;
+  border: paleturquoise;
+  color: white;
+  text-shadow: 1px 0.9px 20px black ;
+}
+
+}
+
+button:active {
+  background: blueviolet
+}
+
+/*meida se utiliza para cuando uno ponga la pagina pequeña el menu cambie de tamano solo.*/
+
+.nav-button {
+  background: #3ca59d;
+  color: blanchedalmond;
+  padding: 10px 0;
+  border: 2px solid #ffff;
+  display: none;
+
+}
+
+@media (max-width: 600px) {
+  nav {
+    background: black;
+    flex-direction: column;
+
+    .nav-enlace {
+      margin: 10px 0;
+    }
+  }
+
+  .nav-button {
+    display: inline-block;
+  }
+}
