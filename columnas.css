@@ -3,11 +3,11 @@
 h1 {
   color: #092532;
   padding: 20px;
-  background: #89c9b8;
+  background: #336d88;
 }
 
 #titulo2 {
-  color: #c70039;
+  color: ##092532;;
   /*el margin se utiliza para mover de lugar titulo o imagen. y padding se utilizan para centarr textos.  */
   margin-left: 15px;
   nav-down: auto;
@@ -17,7 +17,12 @@ h1 {
   background: #cff6cf;
   padding: 5px;
 }
-
+p{
+  color: white;
+}
+li{
+  color: white;
+}
 .columnas {
   color: #c70039;
   block-size: auto;
@@ -27,19 +32,19 @@ h1 {
 
 /*el padding se utiliza para separar los enlaces o botones y darle forma y borde*/
 .nav-enlace {
-  background: #99b898;
+  background: #707ab3;
   color: fff;
   padding: 10px 30px;
   display: inline-block;
-  text-decoration: none; /*esto es para */
+  text-decoration: none; 
+  
 }
 
-.nav-enlace: hover {
-  background: #4f8a8b
-}
+
 
 .nav-enlace {
   background: #399b898;
+border-style: inset
 
 }
 
@@ -53,10 +58,11 @@ a{
     justify-content: space-between esto se usa para darle lugar al menu. 
     tiene que tener inline block porque sino no funciona*/
 nav {
-  background: #3ca59d;
+  /* background: #092532; */
   padding: 10px;
   display: flex;
   justify-content: space-around;
+
 }
 
 button {
@@ -101,7 +107,7 @@ button:active {
 /*meida se utiliza para cuando uno ponga la pagina pequeña el menu cambie de tamano solo.*/
 
 .nav-button {
-  background: #3ca59d;
+  background: #086972;
   color: blanchedalmond;
   padding: 10px 0;
   border: 2px solid #ffff;
